@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    background-color: orange;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+.menu{
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    top: 16px;
+    left:16px;
+    cursor: pointer;
+}

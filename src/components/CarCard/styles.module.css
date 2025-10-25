@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 12px;
+    width: 30%;
+    height: 60%;
+    align-items: center;
+    @media screen and (max-width:1200px) {
+        width: 40%;
+    }
+    @media screen and (max-width:1000px) {
+        width: 50%;
+    }
+    @media screen and (max-width:800px) {
+        width: 100%;
+    }
+}
+
+.card__image{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+button{
+    border-radius: 4px;
+    background-color: orange;
+    width: 40%;
+    height: 10%;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
