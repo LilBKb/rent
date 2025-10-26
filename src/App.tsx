@@ -9,6 +9,7 @@ import Auth from './pages/Auth/Auth'
 import Registration from './pages/Registration/Registration'
 import Rent from './pages/Rent/Rent'
 import LKPage from './pages/LKPage/LKPage'
+import Rents from './pages/Rents/Rents'
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
       {
         path:'/lk-page',
         element:<LKPage/>
+      },
+      {
+        path:'/rents',
+        element:<Rents/>
       }
     ]
   }

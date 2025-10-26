@@ -8,11 +8,11 @@ const AuthForm=()=>{
                     <label>
                         Номер телефона:
                     </label>
-                        <input placeholder='Введите номер телефона' type="text"/>
+                        <input placeholder='Введите номер телефона' type="text" required/>
                     <label>
                         Пароль:
                     </label>
-                        <input placeholder='Введите пароль' type="text"/>
+                        <input placeholder='Введите пароль' type="text" required/>
                     <input type='submit' value='Войти'/>
                 </form>
             </div>
