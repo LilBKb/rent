@@ -18,25 +18,29 @@
     gap: 8px;
     padding: 32px;
     width: 60%;
-    height: 80%;
+    height: 100%;
     opacity: 90%;
     font-size: 24px;
 
     @media screen and (max-width:1000px) {
-        width: 80%;
+        width: 100%;
     }
 }
-form{
-    display:flex;
+
+form {
+    display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: orange;
     padding: 32px;
     border-radius: 12px;
+    @media screen and (max-width:500px) {
+        padding: 16px;
+        font-size: 16px;
+    }
 }
 
-input{
-    border-radius:8px ;
+input {
+    border-radius: 8px;
     padding: 8px;
 }
-

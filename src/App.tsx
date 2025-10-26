@@ -5,6 +5,10 @@ import Home from './pages/Home/Home'
 import Rules from './pages/Rules/Rules'
 import Layout from './Layout'
 import AboutUs from './pages/AboutUs/AboutUs'
+import Auth from './pages/Auth/Auth'
+import Registration from './pages/Registration/Registration'
+import Rent from './pages/Rent/Rent'
+import LKPage from './pages/LKPage/LKPage'
 
 
 function App() {
@@ -24,6 +28,22 @@ function App() {
       {
         path:'/about-us',
         element:<AboutUs/>
+      },
+      {
+        path:'/auth',
+        element:<Auth/>
+      },
+      {
+        path:'/registration',
+        element:<Registration/>
+      },
+      {
+        path:'/rent-car',
+        element:<Rent/>
+      },
+      {
+        path:'/lk-page',
+        element:<LKPage/>
       }
     ]
   }
